@@ -13,6 +13,8 @@
 		A9E5501F19F13ABE00793285 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E5501E19F13ABE00793285 /* Images.xcassets */; };
 		A9E5502219F13ABE00793285 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E5502019F13ABE00793285 /* LaunchScreen.xib */; };
 		A9E5502E19F13ABF00793285 /* DontPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5502D19F13ABF00793285 /* DontPushTests.swift */; };
+		A9E5503919F13B0D00793285 /* sprueche.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E5503819F13B0D00793285 /* sprueche.swift */; };
+		A9E5503B19F13C4F00793285 /* Byeball.wav in Resources */ = {isa = PBXBuildFile; fileRef = A9E5503A19F13C4F00793285 /* Byeball.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A9E5502719F13ABF00793285 /* DontPushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DontPushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E5502C19F13ABF00793285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E5502D19F13ABF00793285 /* DontPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontPushTests.swift; sourceTree = "<group>"; };
+		A9E5503819F13B0D00793285 /* sprueche.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sprueche.swift; sourceTree = "<group>"; };
+		A9E5503A19F13C4F00793285 /* Byeball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Byeball.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				A9E5501719F13ABE00793285 /* AppDelegate.swift */,
 				A9E5501919F13ABE00793285 /* ViewController.swift */,
+				A9E5503719F13AF200793285 /* Models */,
 				A9E5501B19F13ABE00793285 /* Main.storyboard */,
 				A9E5501E19F13ABE00793285 /* Images.xcassets */,
 				A9E5502019F13ABE00793285 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		A9E5501519F13ABE00793285 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9E5503A19F13C4F00793285 /* Byeball.wav */,
 				A9E5501619F13ABE00793285 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +116,14 @@
 				A9E5502C19F13ABF00793285 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9E5503719F13AF200793285 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A9E5503819F13B0D00793285 /* sprueche.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,7 @@
 			files = (
 				A9E5501D19F13ABE00793285 /* Main.storyboard in Resources */,
 				A9E5502219F13ABE00793285 /* LaunchScreen.xib in Resources */,
+				A9E5503B19F13C4F00793285 /* Byeball.wav in Resources */,
 				A9E5501F19F13ABE00793285 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +229,7 @@
 			files = (
 				A9E5501A19F13ABE00793285 /* ViewController.swift in Sources */,
 				A9E5501819F13ABE00793285 /* AppDelegate.swift in Sources */,
+				A9E5503919F13B0D00793285 /* sprueche.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
